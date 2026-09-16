@@ -1,56 +1,67 @@
 # 💼 Salman Ahmad — Portfolio
 
-A modern, full-stack developer portfolio built with **Next.js 14**, **TypeScript** and **Tailwind CSS**, presenting my work, skills and experience as a Full-Stack Web Developer & AI enthusiast.
+A modern developer portfolio built with **Next.js, TypeScript, and Tailwind CSS**, showcasing my projects, technical skills, experience, and work as a **Full-Stack Web Developer & AI Enthusiast**.
 
-## 🌐 Live Demo
+## 🌐 Live Portfolio
 
-**[Visit Portfolio](https://itxmyportfolio.vercel.app/)**
+**[Visit Portfolio](https://build-with-salman.vercel.app/)**
 
 ## ✨ Features
 
-* 🏠 Multi-page structure — Home, About, Skills, Projects, Experience, Contact
-* 🎨 Dark, glassmorphism-inspired UI with subtle glow and gradient accents
-* 🎬 Scroll-reveal and entrance animations via Framer Motion
-* 📱 Fully responsive — desktop, tablet and mobile
-* 🧩 Reusable, data-driven components (projects, skills, experience, services)
-* 📬 Contact form with client-side validation, integration-ready for Formspree/EmailJS/Resend
-* 🕸️ Sticky responsive navbar with active-route highlighting
-* 🔍 SEO — dynamic metadata, Open Graph tags, sitemap, robots.txt
-* ♿ Accessible — semantic HTML, focus states, `prefers-reduced-motion` support
+* 🏠 Multi-page portfolio — Home, About, Skills, Projects, Experience, Contact
+* 🎨 Modern dark UI with glassmorphism, gradients, and subtle animations
+* 🎬 Smooth scroll and entrance animations
+* 📱 Fully responsive across desktop, tablet, and mobile
+* 🧩 Reusable and data-driven React components
+* 📬 Contact form with client-side validation
+* 🕸️ Responsive navbar with active route highlighting
+* 🔍 SEO-friendly metadata, sitemap, and robots.txt
+* ♿ Accessible UI with semantic HTML and reduced-motion support
 * 📄 Downloadable resume
+* 🐙 GitHub integration for showcasing development work
 
 ## 🛠️ Tech Stack
 
 ### Frontend
 
-* Next.js 14 (App Router)
-* React 18
+* Next.js
+* React
 * TypeScript
 * Tailwind CSS
 * Framer Motion
-* Lucide React Icons
+* Lucide React
 
-### Tooling
+### Tools & Deployment
 
-* Git & GitHub
-* Vercel (deployment)
+* Git
+* GitHub
+* Vercel
 * ESLint
 
 ## 📁 Project Structure
 
 ```text
-salman-portfolio/
+Buid_With_Salman/
 ├── src/
-│   ├── app/              Routes: /, /about, /skills, /projects, /experience, /contact
+│   ├── app/
+│   │   ├── about/
+│   │   ├── contact/
+│   │   ├── experience/
+│   │   ├── projects/
+│   │   └── skills/
 │   ├── components/
-│   │   ├── layout/       Navbar, Footer
-│   │   ├── sections/     Hero, About, Skills, Experience, Projects,
-│   │   │                 Services, WhyWorkWithMe, GithubSection, Contact
-│   │   └── ui/            Reusable Button, SectionHeading
-│   ├── data/              Editable content: profile, skills, projects, experience, education, services
-│   └── lib/               Shared helpers
-├── public/                 Static assets (favicon, resume.pdf, og-image.png)
+│   │   ├── layout/
+│   │   ├── sections/
+│   │   └── ui/
+│   ├── data/
+│   └── lib/
+├── public/
+│   ├── projects/
+│   ├── profile.jpg
+│   └── resume.pdf
 ├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
 └── README.md
 ```
 
@@ -59,8 +70,8 @@ salman-portfolio/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/salman-devX/portfolio.git
-cd portfolio
+git clone https://github.com/salman-devX/Buid_With_Salman.git
+cd Buid_With_Salman
 ```
 
 ### 2. Install dependencies
@@ -75,7 +86,7 @@ npm install
 npm run dev
 ```
 
-The app runs on:
+Open your browser and visit:
 
 ```text
 http://localhost:3000
@@ -83,18 +94,17 @@ http://localhost:3000
 
 ## 🔐 Environment Variables
 
-Copy `.env.example` to `.env.local` and fill in what you need:
+Create a `.env.local` file based on `.env.example`:
 
 ```bash
 cp .env.example .env.local
 ```
 
-* `NEXT_PUBLIC_SITE_URL` — used for SEO metadata, sitemap and Open Graph tags
-* `NEXT_PUBLIC_FORMSPREE_ENDPOINT` — connects the contact form to Formspree (or swap in EmailJS/Resend)
+Add the required environment variables according to your project configuration.
 
-Never commit real secrets such as API keys — keep them in `.env.local`, which is git-ignored.
+**Never commit private API keys or sensitive credentials to GitHub.**
 
-## 🏗️ Build
+## 🏗️ Build for Production
 
 ```bash
 npm run build
@@ -103,29 +113,36 @@ npm run start
 
 ## 🚀 Deployment
 
-Deployed on **Vercel**, connected directly to this GitHub repository — every push to `main` redeploys automatically.
+The portfolio is deployed using **Vercel** and connected to the GitHub repository.
 
-1. Push the repo to GitHub
-2. Import it at [vercel.com/new](https://vercel.com/new)
-3. Add the environment variables above in Project Settings
-4. Deploy
+Every update pushed to the `main` branch can trigger a new production deployment.
 
-## 🎯 Purpose
+**Live Website:**
+https://build-with-salman.vercel.app/
 
-Built to present my full-stack and AI project work — including Fruit Vision AI, AutoNova and Faizan Moto Hub — in a single, professional, easily maintainable site.
+## 🎯 Projects Featured
 
-## 👨‍💻 Developer
+The portfolio showcases my main development projects:
+
+* **Fruit Vision AI** — AI-powered fruit classification web application
+* **AutoNova** — Full-stack car workshop management system
+* **Faizan Moto Hub** — Automotive workshop service platform
+
+## 👨‍💻 About Me
 
 **Salman Ahmad**
 
 Full-Stack Web Developer • AI Enthusiast
 
-### 🔗 Links
+I build responsive and practical web applications with a focus on clean interfaces, reliable backend systems, and real-world functionality.
 
-* 🌐 Live Portfolio: https://itxmyportfolio.vercel.app/
-* 🐙 GitHub: https://github.com/salman-devX
-* 💼 LinkedIn: https://linkedin.com/in/salmanahmad-tech
+## 🔗 Links
+
+* 🌐 **Portfolio:** https://build-with-salman.vercel.app/
+* 🐙 **GitHub:** https://github.com/salman-devX
+* 💼 **LinkedIn:** https://linkedin.com/in/salmanahmad-tech
+* 📂 **Repository:** https://github.com/salman-devX/Buid_With_Salman
 
 ## 📄 License
 
-This project is created and maintained by Salman Ahmad.
+This project is created and maintained by **Salman Ahmad**.
