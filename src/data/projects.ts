@@ -31,10 +31,10 @@ export const projects: Project[] = [
       "A car service center management system covering appointment booking with live slot availability, real-time service tracking, digital vehicle inspection checklists, parts and inventory tracking, automatic invoicing, and role-based dashboards for admins, receptionists, mechanics and customers.",
     tech: ["React", "Vite", "React Router", "React Hook Form", "Recharts", "Node.js", "MongoDB", "Firebase"],
     githubUrl: "https://github.com/salman-devX/AutoNova",
-    liveUrl: "https://autonova-eight.vercel.app/",
+    liveUrl: "https://frontend-rho-one-nq0emiowx4.vercel.app/",
     image: "/projects/autonova-cover.jpg",
     featured: true,
-  },
+},
   {
     slug: "faizan-moto-hub",
     name: "Faizan Moto Hub",
